@@ -47,6 +47,7 @@ services:
         "/root",
         "--project-dir",
         "/dbt"
+        "--full-refresh"
       ]
     networks:
       - elt_network
