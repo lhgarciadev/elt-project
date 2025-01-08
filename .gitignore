@@ -1,1 +1,2 @@
 dbt-env/
+airflow/dags/__pycache__/
