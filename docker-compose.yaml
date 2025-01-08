@@ -46,7 +46,7 @@ services:
         "--profiles-dir",
         "/root",
         "--project-dir",
-        "/dbt"
+        "/dbt",
         "--full-refresh"
       ]
     networks:
