@@ -104,7 +104,7 @@ services:
       - EXECUTOR=Local
       - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
       - AIRFLOW_CONN_DESTINATION_POSTGRES=postgres://postgres:secret@destination_postgres:5434/destination_db
-      - AIRFLOW__CORE__FERNET_KEY=bB14In21V5uTOnonw09B6u72mHePULXts1rj3mZ3xd0=
+      - AIRFLOW__CORE__FERNET_KEY=''
       - AIRFLOW__WEBSERVER__DEFAULT_USER_USERNAME=airflow
       - AIRFLOW__WEBSERVER__DEFAULT_USER_PASSWORD=password
       - AIRFLOW_WWW_USER_USERNAME=airflow
@@ -136,7 +136,7 @@ services:
       - EXECUTOR=Local
       - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
       - AIRFLOW_CONN_DESTINATION_POSTGRES=postgres://postgres:secret@destination_postgres:5434/destination_db
-      - AIRFLOW__CORE__FERNET_KEY=bB14In21V5uTOnonw09B6u72mHePULXts1rj3mZ3xd0=
+      - AIRFLOW__CORE__FERNET_KEY=''
       - AIRFLOW__WEBSERVER__SECRET_KEY=secret
       - AIRFLOW_WWW_USER_USERNAME=airflow
       - AIRFLOW_WWW_USER_PASSWORD=password
